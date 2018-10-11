@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86AB98BD2060A5E7000E558F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AB98BC2060A5E7000E558F /* AppDelegate.swift */; };
+		86AB98BF2060A5E7000E558F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AB98BE2060A5E7000E558F /* ViewController.swift */; };
+		86AB98C22060A5E7000E558F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86AB98C02060A5E7000E558F /* Main.storyboard */; };
+		86AB98C42060A5E7000E558F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86AB98C32060A5E7000E558F /* Assets.xcassets */; };
+		86AB98C72060A5E7000E558F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86AB98C52060A5E7000E558F /* LaunchScreen.storyboard */; };
+		86AB98EF2060A714000E558F /* NetworkingKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AB98EE2060A714000E558F /* NetworkingKitTests.swift */; };
+		F01794D7E47DF4FAC898B706 /* Pods_GKNetworkingKitExample_GKNetworkingKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C54E6DEA7B9CF8B843079060 /* Pods_GKNetworkingKitExample_GKNetworkingKitTests.framework */; };
+		FFD42A4DE9E9D00EE94DFFA8 /* Pods_GKNetworkingKitExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E149149FDCEE4638C1CCA36B /* Pods_GKNetworkingKitExample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86023CCE217011AC00512155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86AB98B12060A5E7000E558F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86AB98B82060A5E7000E558F;
+			remoteInfo = GKNetworkingKitExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EE97D84A2B456EEEEA10186 /* Pods-GKNetworkingKitExample-GKNetworkingKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GKNetworkingKitExample-GKNetworkingKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GKNetworkingKitExample-GKNetworkingKitTests/Pods-GKNetworkingKitExample-GKNetworkingKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		621B6991538D6D80F9214346 /* Pods-GKNetworkingKitExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GKNetworkingKitExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GKNetworkingKitExample/Pods-GKNetworkingKitExample.debug.xcconfig"; sourceTree = "<group>"; };
+		86AB98B92060A5E7000E558F /* GKNetworkingKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GKNetworkingKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86AB98BC2060A5E7000E558F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86AB98BE2060A5E7000E558F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86AB98C12060A5E7000E558F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86AB98C32060A5E7000E558F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86AB98C62060A5E7000E558F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86AB98C82060A5E7000E558F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86AB98EC2060A714000E558F /* GKNetworkingKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GKNetworkingKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86AB98EE2060A714000E558F /* NetworkingKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingKitTests.swift; sourceTree = "<group>"; };
+		86AB98F02060A714000E558F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D6EC53A15326EDBE5180398 /* Pods-GKNetworkingKitExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GKNetworkingKitExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-GKNetworkingKitExample/Pods-GKNetworkingKitExample.release.xcconfig"; sourceTree = "<group>"; };
+		C54E6DEA7B9CF8B843079060 /* Pods_GKNetworkingKitExample_GKNetworkingKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GKNetworkingKitExample_GKNetworkingKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E149149FDCEE4638C1CCA36B /* Pods_GKNetworkingKitExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GKNetworkingKitExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9BDA111A9F050C6DE18470B /* Pods-GKNetworkingKitExample-GKNetworkingKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GKNetworkingKitExample-GKNetworkingKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GKNetworkingKitExample-GKNetworkingKitTests/Pods-GKNetworkingKitExample-GKNetworkingKitTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86AB98B62060A5E7000E558F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD42A4DE9E9D00EE94DFFA8 /* Pods_GKNetworkingKitExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86AB98E92060A714000E558F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01794D7E47DF4FAC898B706 /* Pods_GKNetworkingKitExample_GKNetworkingKitTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BDF8A854959AC55866C99DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				621B6991538D6D80F9214346 /* Pods-GKNetworkingKitExample.debug.xcconfig */,
+				8D6EC53A15326EDBE5180398 /* Pods-GKNetworkingKitExample.release.xcconfig */,
+				0EE97D84A2B456EEEEA10186 /* Pods-GKNetworkingKitExample-GKNetworkingKitTests.debug.xcconfig */,
+				E9BDA111A9F050C6DE18470B /* Pods-GKNetworkingKitExample-GKNetworkingKitTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		86AB98B02060A5E7000E558F = {
+			isa = PBXGroup;
+			children = (
+				86AB98BB2060A5E7000E558F /* GKNetworkingKitExample */,
+				86AB98ED2060A714000E558F /* GKNetworkingKitTests */,
+				86AB98BA2060A5E7000E558F /* Products */,
+				6BDF8A854959AC55866C99DD /* Pods */,
+				DAE2718692351B72F3BB42E5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		86AB98BA2060A5E7000E558F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86AB98B92060A5E7000E558F /* GKNetworkingKitExample.app */,
+				86AB98EC2060A714000E558F /* GKNetworkingKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86AB98BB2060A5E7000E558F /* GKNetworkingKitExample */ = {
+			isa = PBXGroup;
+			children = (
+				86AB98BC2060A5E7000E558F /* AppDelegate.swift */,
+				86AB98BE2060A5E7000E558F /* ViewController.swift */,
+				86AB98C02060A5E7000E558F /* Main.storyboard */,
+				86AB98C32060A5E7000E558F /* Assets.xcassets */,
+				86AB98C52060A5E7000E558F /* LaunchScreen.storyboard */,
+				86AB98C82060A5E7000E558F /* Info.plist */,
+			);
+			path = GKNetworkingKitExample;
+			sourceTree = "<group>";
+		};
+		86AB98ED2060A714000E558F /* GKNetworkingKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				86AB98EE2060A714000E558F /* NetworkingKitTests.swift */,
+				86AB98F02060A714000E558F /* Info.plist */,
+			);
+			path = GKNetworkingKitTests;
+			sourceTree = "<group>";
+		};
+		DAE2718692351B72F3BB42E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E149149FDCEE4638C1CCA36B /* Pods_GKNetworkingKitExample.framework */,
+				C54E6DEA7B9CF8B843079060 /* Pods_GKNetworkingKitExample_GKNetworkingKitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86AB98B82060A5E7000E558F /* GKNetworkingKitExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86AB98D62060A5E7000E558F /* Build configuration list for PBXNativeTarget "GKNetworkingKitExample" */;
+			buildPhases = (
+				2312A1CD0040388E0C56FD48 /* [CP] Check Pods Manifest.lock */,
+				86AB98B52060A5E7000E558F /* Sources */,
+				86AB98B62060A5E7000E558F /* Frameworks */,
+				86AB98B72060A5E7000E558F /* Resources */,
+				6F52CC79F18C276417409BF1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GKNetworkingKitExample;
+			productName = NetworkingKitExample;
+			productReference = 86AB98B92060A5E7000E558F /* GKNetworkingKitExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86AB98EB2060A714000E558F /* GKNetworkingKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86AB98F12060A715000E558F /* Build configuration list for PBXNativeTarget "GKNetworkingKitTests" */;
+			buildPhases = (
+				936411375A4346C6CAE9884D /* [CP] Check Pods Manifest.lock */,
+				86AB98E82060A714000E558F /* Sources */,
+				86AB98E92060A714000E558F /* Frameworks */,
+				86AB98EA2060A714000E558F /* Resources */,
+				A4799D15CF8F1A193F5FD49A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86023CCF217011AC00512155 /* PBXTargetDependency */,
+			);
+			name = GKNetworkingKitTests;
+			productName = NetworkingKitTests;
+			productReference = 86AB98EC2060A714000E558F /* GKNetworkingKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86AB98B12060A5E7000E558F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Gligor Kotushevski";
+				TargetAttributes = {
+					86AB98B82060A5E7000E558F = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+					};
+					86AB98EB2060A714000E558F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 86AB98B82060A5E7000E558F;
+					};
+				};
+			};
+			buildConfigurationList = 86AB98B42060A5E7000E558F /* Build configuration list for PBXProject "GKNetworkingKitExample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86AB98B02060A5E7000E558F;
+			productRefGroup = 86AB98BA2060A5E7000E558F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86AB98B82060A5E7000E558F /* GKNetworkingKitExample */,
+				86AB98EB2060A714000E558F /* GKNetworkingKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86AB98B72060A5E7000E558F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AB98C72060A5E7000E558F /* LaunchScreen.storyboard in Resources */,
+				86AB98C42060A5E7000E558F /* Assets.xcassets in Resources */,
+				86AB98C22060A5E7000E558F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86AB98EA2060A714000E558F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2312A1CD0040388E0C56FD48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GKNetworkingKitExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F52CC79F18C276417409BF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GKNetworkingKitExample/Pods-GKNetworkingKitExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GKBaseKit/GKBaseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GKNetworkingKit/GKNetworkingKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GKBaseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GKNetworkingKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GKNetworkingKitExample/Pods-GKNetworkingKitExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		936411375A4346C6CAE9884D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GKNetworkingKitExample-GKNetworkingKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4799D15CF8F1A193F5FD49A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GKNetworkingKitExample-GKNetworkingKitTests/Pods-GKNetworkingKitExample-GKNetworkingKitTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GKBaseKit/GKBaseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GKNetworkingKit/GKNetworkingKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GKBaseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GKNetworkingKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GKNetworkingKitExample-GKNetworkingKitTests/Pods-GKNetworkingKitExample-GKNetworkingKitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86AB98B52060A5E7000E558F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AB98BF2060A5E7000E558F /* ViewController.swift in Sources */,
+				86AB98BD2060A5E7000E558F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86AB98E82060A714000E558F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AB98EF2060A714000E558F /* NetworkingKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86023CCF217011AC00512155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86AB98B82060A5E7000E558F /* GKNetworkingKitExample */;
+			targetProxy = 86023CCE217011AC00512155 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86AB98C02060A5E7000E558F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86AB98C12060A5E7000E558F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86AB98C52060A5E7000E558F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86AB98C62060A5E7000E558F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86AB98D42060A5E7000E558F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86AB98D52060A5E7000E558F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86AB98D72060A5E7000E558F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 621B6991538D6D80F9214346 /* Pods-GKNetworkingKitExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GKNetworkingKitExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nz.co.gligor.GKNetworkingKitExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86AB98D82060A5E7000E558F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D6EC53A15326EDBE5180398 /* Pods-GKNetworkingKitExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GKNetworkingKitExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nz.co.gligor.GKNetworkingKitExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86AB98F22060A715000E558F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EE97D84A2B456EEEEA10186 /* Pods-GKNetworkingKitExample-GKNetworkingKitTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GKNetworkingKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nz.co.gligor.NetworkingKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GKNetworkingKitExample.app/GKNetworkingKitExample";
+			};
+			name = Debug;
+		};
+		86AB98F32060A715000E558F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9BDA111A9F050C6DE18470B /* Pods-GKNetworkingKitExample-GKNetworkingKitTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GKNetworkingKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nz.co.gligor.NetworkingKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GKNetworkingKitExample.app/GKNetworkingKitExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86AB98B42060A5E7000E558F /* Build configuration list for PBXProject "GKNetworkingKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86AB98D42060A5E7000E558F /* Debug */,
+				86AB98D52060A5E7000E558F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86AB98D62060A5E7000E558F /* Build configuration list for PBXNativeTarget "GKNetworkingKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86AB98D72060A5E7000E558F /* Debug */,
+				86AB98D82060A5E7000E558F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86AB98F12060A715000E558F /* Build configuration list for PBXNativeTarget "GKNetworkingKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86AB98F22060A715000E558F /* Debug */,
+				86AB98F32060A715000E558F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86AB98B12060A5E7000E558F /* Project object */;
+}

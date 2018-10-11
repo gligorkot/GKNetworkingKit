@@ -1,0 +1,17 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/gligorkot/MyPods.git'
+
+use_frameworks!
+
+workspace 'GKNetworkingKitExample'
+
+target :'GKNetworkingKitExample' do
+    project 'GKNetworkingKitExample.xcodeproj'
+    platform :ios, '9.0'
+
+    pod 'GKNetworkingKit', :path => '../'
+
+    target :'GKNetworkingKitTests' do
+        pod 'Nimble', '~> 7.0.x'
+    end
+end
