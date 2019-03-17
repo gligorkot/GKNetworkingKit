@@ -8,6 +8,7 @@
 
 public protocol APIType {
     var authenticated: Bool { get }
+    var ignoreBaseURL: Bool { get }
 }
 
 // used for sample data responses in Target objects

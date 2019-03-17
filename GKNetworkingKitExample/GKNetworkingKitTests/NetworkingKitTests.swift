@@ -58,6 +58,10 @@ final class API: TargetType, APIType {
     var authenticated: Bool {
         return true
     }
+    
+    var ignoreBaseURL: Bool {
+        return false
+    }
 }
 
 final class NotDebugConfig: DebugProtocol {
