@@ -62,7 +62,12 @@ extension Networking {
     }
 
     private static func endpoint<T>(_ target: T, stubResponseClosure: @escaping () -> EndpointSampleResponse, httpHeaderFields: [String : String]?) -> Endpoint where T: TargetType, T: APIType {
-        let url = target.baseURL.appendingPathComponent(target.path).absoluteString
+        let url: String
+        if target.ignoreBaseURL {
+            url = target.path
+        } else {
+            url = target.baseURL.appendingPathComponent(target.path).absoluteString
+        }
         return Endpoint(url: url, sampleResponseClosure: stubResponseClosure, method: target.method, task: target.task, httpHeaderFields: httpHeaderFields)
     }
 
