@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name                  = 'GKNetworkingKit'
-  s.version               = '1.2.0'
+  s.version               = '1.3.0'
   s.summary               = 'GKNetworkingKit framework.'
   s.description           = <<-DESC
                             * GKNetworkingKit framework
@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   s.source                = { :git => 'https://github.com/gligorkot/GKNetworkingKit.git', :tag => s.version.to_s }
 
   s.source_files          = 'Classes/**', 'Classes/**/*.{swift}'
-  s.pod_target_xcconfig   = { 'SWIFT_VERSION' => '4.2' }
+  s.pod_target_xcconfig   = { 'SWIFT_VERSION' => '5.0' }
 
-  s.dependency 'Moya', '~> 12.0.x'
+  s.dependency 'Moya', '~> 13.0.x'
   s.dependency 'GKBaseKit', '~> 1.0.x'
   s.requires_arc          = true
 

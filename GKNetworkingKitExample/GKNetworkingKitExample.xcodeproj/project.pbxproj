@@ -182,11 +182,12 @@
 				TargetAttributes = {
 					86AB98B82060A5E7000E558F = {
 						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					86AB98EB2060A714000E558F = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 86AB98B82060A5E7000E558F;
 					};
@@ -262,7 +263,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-GKNetworkingKitExample/Pods-GKNetworkingKitExample-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-GKNetworkingKitExample/Pods-GKNetworkingKitExample-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/GKBaseKit/GKBaseKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GKNetworkingKit/GKNetworkingKit.framework",
@@ -281,7 +282,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GKNetworkingKitExample/Pods-GKNetworkingKitExample-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GKNetworkingKitExample/Pods-GKNetworkingKitExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		936411375A4346C6CAE9884D /* [CP] Check Pods Manifest.lock */ = {
@@ -314,7 +315,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-GKNetworkingKitExample-GKNetworkingKitTests/Pods-GKNetworkingKitExample-GKNetworkingKitTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-GKNetworkingKitExample-GKNetworkingKitTests/Pods-GKNetworkingKitExample-GKNetworkingKitTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/GKBaseKit/GKBaseKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GKNetworkingKit/GKNetworkingKit.framework",
@@ -335,7 +336,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GKNetworkingKitExample-GKNetworkingKitTests/Pods-GKNetworkingKitExample-GKNetworkingKitTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GKNetworkingKitExample-GKNetworkingKitTests/Pods-GKNetworkingKitExample-GKNetworkingKitTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -510,7 +511,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.gligor.GKNetworkingKitExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -526,7 +527,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.gligor.GKNetworkingKitExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -540,7 +541,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.gligor.NetworkingKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GKNetworkingKitExample.app/GKNetworkingKitExample";
 			};
@@ -555,7 +556,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.gligor.NetworkingKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GKNetworkingKitExample.app/GKNetworkingKitExample";
 			};
