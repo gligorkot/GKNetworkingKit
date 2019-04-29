@@ -16,7 +16,7 @@ public struct Networking<API: TargetType & APIType>: NetworkingProtocol {
 // MARK: - static methods
 public extension Networking {
 
-    public static func newNetworking() -> Networking {
+    static func newNetworking() -> Networking {
         return Networking(provider: newProvider(plugins))
     }
 
