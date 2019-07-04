@@ -57,6 +57,9 @@ extension Networking {
         return { (endpoint, closure) in
             var request = try! endpoint.urlRequest()
             request.httpShouldHandleCookies = false
+            if endpoint.method == .post {
+                request.cachePolicy = .reloadIgnoringCacheData
+            }
             closure(.success(request))
         }
     }
