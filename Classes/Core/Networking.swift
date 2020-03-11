@@ -19,6 +19,11 @@ public extension Networking {
     static func newNetworking() -> Networking {
         return Networking(provider: newProvider(plugins))
     }
+    
+    /// use with caution, this stubs your networking layer and returns the sampleData declared in your Moya API
+    static func newSuccessMockNetworking() -> Networking {
+        return Networking.newSuccessfulResponseStubbedNetworking()
+    }
 
 }
 
