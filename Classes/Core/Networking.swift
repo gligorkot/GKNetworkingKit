@@ -31,7 +31,7 @@ extension Networking {
 
     static var plugins: [PluginType] {
         if BaseKit.isDebug() {
-            return [NetworkLoggerPlugin(verbose: true)]
+            return [NetworkLoggerPlugin(configuration: NetworkLoggerPlugin.Configuration(logOptions: .verbose))]
         }
         return []
     }
