@@ -72,7 +72,7 @@ extension Networking {
         if target.ignoreBaseURL {
             url = target.path
         } else {
-            url = target.baseURL.appendingPathComponent(target.path).absoluteString
+            url = target.baseURL.absoluteString + target.path
         }
         return Endpoint(url: url, sampleResponseClosure: stubResponseClosure, method: target.method, task: target.task, httpHeaderFields: httpHeaderFields)
     }
